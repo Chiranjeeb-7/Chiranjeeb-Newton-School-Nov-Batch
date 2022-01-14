@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatinga Airline || JATINGAirLine.com ||</title>
+    <style>
+        div {
+            background-color: rgb(74, 230, 144);
+            color: black;
+            border: 5px solid blue;
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        h1 {
+            background-color: blue;
+            color: whitesmoke;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: xx-large;
+
+        }
+
+        ul {
+            color: blue;
+            background-color: orange;
+            border: 2px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>JATINGAirLine.com</h1>
+        <hr>
+        <ul type="circle">
+            <li><a href="table.html">Home</li></a>
+            <li><a href="table.html" target="_blank">About Us</li></a>
+            <li><a href="table.html" target="_blank">Contact Us</li></a>
+        </ul>
+
+    </header>
+    <section>
+        <div id="First">
+            <form>
+                <b>First Name: </b>
+                <input type="text" placeholder="Enter Your First Name">
+                <b>Surname: </b>
+                <input type="text" placeholder="Enter Your Surname">
+                <b>Gender: </b>
+                <label for="genderidM">
+                    <input type="radio" value="Gender M" name="gender" id="genderidM">Male
+                </label>
+                <label for="genderidF">
+                    <input type="radio" value="Gender F" name="gender" id="genderidF">Female
+                </label>
+                <label for="genderidT">
+                    <input type="radio" value="Gender T" name="gender" id="genderidT">Transgender
+                </label>
+                <br>
+                <b>Date Of Birth: </b>
+                <input type="date">
+                <b>Date of Journey: </b><input type="date">
+                <b>From:</b>
+                <select name="airport" id="airport">
+                    <option value="no_airport">Select Your Deparature</option>
+                    <option value="Dibrugarh">Dibrugarh</option>
+                    <option value="Jorhat">Jorhat</option>
+                    <option value="Guwahati">Guwahati</option>
+                    <option value="Agartala">Agartala</option>
+                    <option value="Imphal">Imphal</option>
+                    <option value="Shillong">Shillong</option>
+
+                </select>
+                <b>To:</b>
+                <select name="airport" id="airport">
+                    <option value="no_airport">Select Your Arrival</option>
+                    <option value="Jorhat">Jorhat</option>
+                    <option value="Guwahati">Guwahati</option>
+                    <option value="Shillong">Shillong</option>
+                    <option value="Agartala">Agartala</option>
+                    <option value="Imphal">Imphal</option>
+                    <option value="Calcutta">Calcutta</option>
+                    <option value="New Delhi">New Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bangalore">Bangalore</option>
+                </select>
+                <br>
+                <b>Phone No. </b>
+                <input type="number" placeholder="Enter Your Phone No.">
+                <b>Email ID: </b><input type="email" placeholder="Enter Your Email Id"><br>
+
+                <b>Adrress: </b>
+                <input type="text" placeholder="Enter Your Address">
+                <b>District: </b><input type="text" placeholder="Enter Your District">
+                <b>City/Town: </b><input type="text" placeholder="Enter City/Town">
+                <b>State: </b><input type="text" placeholder="Enter Your State">
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
